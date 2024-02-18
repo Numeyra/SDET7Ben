@@ -1,5 +1,6 @@
 package Gün03;
 
+import Utlity.MyFunc;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -16,6 +17,7 @@ public class MainApp {
           throw new RuntimeException(e);
       }
 
+        MyFunc.Bekle(3);
     //bekleme
     driver.quit();
     }
